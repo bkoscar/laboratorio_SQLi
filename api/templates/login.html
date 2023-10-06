@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f2f5; 
+            text-align: center;
+            padding-top: 100px;
+        }
+
+        h1 {
+            color: #1877f2; 
+        }
+
+        form {
+            background-color: #ffffff; 
+            border-radius: 5px;
+            padding: 20px;
+            width: 300px;
+            margin: 0 auto;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        label {
+            display: block;
+            text-align: left;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        input[type="text"],
+        input[type="password"] {
+            width: 80%;
+            padding: 3px;
+            margin-bottom: 15px;
+            border: 1px solid #ddd; 
+            border-radius: 5px; 
+            font-size: 16px;
+        }
+
+        input[type="submit"] {
+            background-color: #1877f2; 
+            color: #fff;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 5px; 
+            cursor: pointer;
+            font-size: 18px;
+            margin-bottom: 8px;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #0e5aef; 
+        }
+
+        /* Estilo para el enlace "Forgot your password?" 
+        .forgot-password {
+            text-align: center; 
+            margin-top: 10px;
+        }
+
+        .forgot-password a {
+            text-decoration: none;
+            color: #1877f2; 
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Login</h1>
+    <form method="post" action="/login/">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+
+        <input type="submit" value="Log In">
+        
+        <div class="forgot-password">
+            <a href="#">Forgot your password?</a>
+        </div>
+    </form>
+</body>
+</html>
+
+</html>

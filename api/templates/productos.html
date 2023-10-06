@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ordenar en Comidas Rápidas</title>
+    <style>
+        /* Agrega estilos CSS personalizados aquí */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7; /* Cambia el color de fondo */
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+            padding: 20px 0;
+        }
+        .presentation {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .catalog {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around; /* Cambia el espacio entre elementos */
+            padding: 20px;
+        }
+        .food-item {
+            width: 30%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            background-color: #fff; /* Cambia el color de fondo del catálogo */
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Agrega sombra a los elementos */
+            border-radius: 5px; /* Agrega bordes redondeados */
+        }
+        .food-item img {
+            max-width: 100%;
+            height: auto;
+        }
+        .order-button {
+            text-align: center;
+            margin-top: 20px;
+        }
+        /* Puedes agregar más estilos según sea necesario */
+    </style>
+</head>
+<body>
+    <h1>Ordenar en Comidas Rápidas</h1>
+    
+    <div class="presentation">
+        <p>Bienvenido a Comidas Rápidas, tu destino para deliciosas comidas rápidas.</p>
+        <p>Explora nuestro catálogo de comidas y ordena tus favoritas.</p>
+    </div>
+    
+    <div class="catalog">
+        <div class="food-item">
+            <img src="imagen1.jpg" alt="Comida 1">
+            <h2>Comida 1</h2>
+            <p>Descripción de la comida 1</p>
+        </div>
+        <!-- Repite el bloque de .food-item para las demás comidas -->
+    </div>
+    
+    <div class="order-button">
+        <a href="/ordenar"><button>Ordenar</button></a> <!-- Agrega el botón de ordenar -->
+    </div>
+</body>
+</html>
